@@ -1,8 +1,9 @@
-﻿public class Worker
+﻿// Домашка из файла + домашка из преезнтации(реворк прошлой дз под классы и методы)
+public class Worker
 {
-    private string name;
-    private int age;
-    private float salary;
+   /*в первой части тут public и соответственно нет геттреов и сеттеров*/ private string name;
+   /*в первой части тут public и соответственно нет геттреов и сеттеров*/ private int age;
+   /*в первой части тут public и соответственно нет геттреов и сеттеров*/ private float salary;
 
     public void checkAge(int value)
     {
@@ -15,7 +16,7 @@
             setAge(value);
         }
     }
-
+    //перергрузка метода чекЭйдж
     public void checkAge(float value)
     {
         if (value is float)
@@ -60,11 +61,11 @@
         }
     }
 
-
     //Альтеранативные варинаты геттера и сеттера
-    /*    public string Name { get => name; set => name = value; }
+    /*  public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }
-        public float Salary { get => salary; set => salary = value; }*/
+        public float Salary { get => salary; set => salary = value; }
+    */
 
     //еще один вариант геттера и сеттера
 
@@ -117,7 +118,7 @@
 
     }*/
 
-
+    // реворк диагонлаей матриц под классы
     public class Matrix {
 
     public int[,] matrixOfIntegers ;
@@ -174,7 +175,7 @@ public class Program {
     {
         Matrix matrix = new Matrix();
         matrix.GetSummOfDiagonalsElements();
-
+            //зкаоментил первую часть что бы проверить вторую и третью
             /*  Worker John = new Worker();
               Worker Sam = new Worker();
               John.age = 25;
